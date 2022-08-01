@@ -16,6 +16,20 @@
       alert(fruits.pop());
       alert(fruits.push("Kiwi"));
       alert(fruits[fruits.length - 1]);
+      fruits.unshift('Fresa');
+      alert(fruits);
+      fruits.shift('Fresa');
+      alert(fruits);
+      var pos = 1;
+      var numElementos = 2;
+      var arr4 = fruits.splice(pos, numElementos);
+      alert(arr4);
+      var fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+      // fruits without the first element
+      var citrus = fruits.slice(1);
+      alert(citrus);
+      var set = fruits.slice(2);
+      alert(set);
     </script>
   </head>
 <body>
